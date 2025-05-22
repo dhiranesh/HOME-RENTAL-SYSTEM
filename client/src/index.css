@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* You can add custom global styles below if needed */
+
+/* Basic global styles for the app */
+body {
+  margin: 0;
+  font-family: 'Roboto', Arial, sans-serif;
+  background: #f7f7f7;
+  color: #222;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
