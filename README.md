@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Home Rental Web Application
 
 This is a full-featured Home Rental Web Application built using the MERN Stack (MongoDB, Express.js, React.js, Node.js).
@@ -171,3 +172,7 @@ node server-dev.js
 cd c:\Users\dhira\OneDrive\Desktop\other\final house rental website\home-rental-app\client
 npm install
 npm start
+=======
+# HOME-RENTAL-SYSTEM
+MERN STACK
+>>>>>>> d1ff25819fe3879814ec0354c140e11ad7479219

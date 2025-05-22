@@ -134,4 +134,21 @@ const RegisterPage = () => {
             disabled={loading}
             className="w-full bg-indigo-600 text-white py-2 px-4 rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 disabled:opacity-50"
           >
-            
+            {loading ? "Registering..." : "Register"}
+          </button>
+        </form>
+        <p className="mt-4 text-center text-sm">
+          Already have an account?{" "}
+          <Link
+            to="/login"
+            className="font-medium text-indigo-600 hover:text-indigo-500"
+          >
+            Login here
+          </Link>
+        </p>
+      </div>
+    </div>
+  );
+};
+
+export default RegisterPage;
